@@ -2,37 +2,45 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
         <link href="assets/style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projects</title>
 	</head>
 	<body>
 		<div class="header">
-			<div class="name">Projects</div>
-			<img src="assets/img/headerimageprojects.jpeg">
+			<div class="item1">Projects</div>
 			<div class="nav">
-				<div class="navname"><a href="index.html">Home</a></div>
-				<div class="navname"><a href="about.html">About</a></div>
-				<div class="navname">Projects</div>
-				<div class="underline"></div>
+				<div class="nav-item"><a href="index.html">Home</a></div>
+				<div class="nav-item"><a href="about.html">About</a></div>
+				<div class="nav-item"><u>Projects</u></div>
 			</div>
 		</div>
-		<div class="content">
-			<div class="projectfiltering">
+		<div class="project-grid-container">
 		<div class="projectnav">
-			<div class="nav-item active">Digital Art</div>
-			<div class="nav-item active">Architecture</div>
-			<div class="nav-item active">Photography</div>
+			<div class="projectnav-item active"><b>Digital-Art</b></div>
+			<div class="projectnav-item active"><b>Architecture</b></div>
+			<div class="projectnav-item active"><b>Photography</b></div>
 		</div>
-		<div class="content">
-			<div class="digital-art"><img src="assets/img/penguin.png"></div>
-			<div class="digital-art"><img src="assets/img/potential.png"></div>
-			<div class="digital-art"><img src="assets/img/cat.png"></div>
-			<div class="architecture"><img src="assets/img/ersilia.png"></div>
-			<div class="digital-art"><img src="assets/img/brain.png"></div>
-			<div class="photography"><img src="assets/img/valve.jpg"></div>
-		</div>
-	</div>
+			<div class="row">
+				<div class="column">
+					<a href="potential.html"><div id="potential" class="Digital-Art"><img src="assets/img/potential.png"></div></a>
+					<a href="ersilia.html"><div id="ersilia" class="Architecture"><img src="assets/img/ersilia.jpg"></div></a>
+					<a href="penguin.html"><div id="penguin" class="Digital-Art"><img src="assets/img/penguin.png"></div></a>
+				</div>
+				<div class="column">
+					<a href="valve.html"><div id="valve" class="Photography"><img src="assets/img/valve.jpg"></div></a>
+					<a href="rapunzel.html"><div id="rapunzel" class="Digital-Art"><img src="assets/img/rapunzel.jpg"></div></a>
+					<a href="cat.html"><div id="cat" class="Digital-Art"><img src="assets/img/cat.png"></div></a>
+				</div>
+				<div class="column">
+					<a href="biomimicry.html"><div id="biomimicry" class="Architecture"><img src="assets/img/biomimicry.jpg"></div></a>
+					<a href="brain.html"><div id="brain" class="Digital-Art"><img src="assets/img/brain.png"></div></a>
+					<a href="dandelion.html"><div id="dandelion" class="Photography"><img src="assets/img/dandelion.jpg"></div></a>
+				</div>
+			</div>
 		</div>
 	</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </html>
