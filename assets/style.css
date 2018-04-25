@@ -176,6 +176,13 @@ a:active{
 
 /*ABOUT PAGE*/
 
+.aboutheader{
+	background: #37C6C0;
+	width: 100%;
+	height: 100%;
+	position: relative
+}
+
 
 .item1{
 	font-family: 'Josefin Sans', sans-serif;
@@ -286,12 +293,6 @@ span{
 	background-color: #FFDF2E;
 }
 
-.aboutheader{
-	background: #37C6C0;
-	width: 100%;
-	height: 100%;
-	position: relative
-}
 
 /*PROJECTS PAGE*/
 
